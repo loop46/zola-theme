@@ -1,0 +1,12 @@
+name = "loop46"
+description = "theme for the loop46 website"
+license = "AGPL"
+homepage = "https://github.com/loop46/zola-theme"
+min_version = "0.4.0"
+
+[extra]
+
+[author]
+name = "anarchodev"
+homepage = "https://rcho.dev"
+

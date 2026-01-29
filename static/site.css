@@ -1,0 +1,51 @@
+/* SECTION: BASE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0 auto;
+    height: 100%;
+    font: 100%/1.5 sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        padding: 1.5em;
+        max-width: 46em;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: underline; 
+}
+
+/* SECTION: LAYOUT */
+.l-float-right {
+    float: right;
+}
+
+.l-stacked {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
+/* SECTION: MODULE */
+.navbar {
+    display: flex;
+    gap: 1em;
+}
+
+/* SECTION: STATE */

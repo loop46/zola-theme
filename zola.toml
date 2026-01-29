@@ -13,4 +13,8 @@ build_search_index = false
 theme = "catppuccin-mocha"
 
 [extra]
-# Put all your custom variables here
+loop_links = [
+  { url = "/section-1", name = "Section 1"},
+  { url = "/section-2", name = "Section 2"},
+]
+  

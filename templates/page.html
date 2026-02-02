@@ -10,7 +10,7 @@
 <body>
     <div class="grid-stacked">
         <header>
-            <a href="/" >Loop46</a>
+            <a href="/">Loop46</a>
             <nav class="float-right navbar">
                 {% for link in config.extra.loop_links %}
                     <a href="{{link.url}}">{{link.name}}</a>
@@ -18,9 +18,7 @@
             </nav>
         </header>
         <main>
-            {% for page in section.pages %}
-            {{page.summary | safe}}
-            {% endfor %}
+            {{page.content | safe}}
         </main>
     </div>
 </body>

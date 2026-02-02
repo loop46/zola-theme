@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 /* SECTION: BASE */
 :root {
     --rosewater: #f5e0dc;
@@ -30,28 +32,28 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-color: var(--text);
 }
 
 html {
     margin: 0 auto;
     height: 100%;
-    font: 100%/1.5 sans-serif;
-    line-height: 1.5;
+    font: 100%/1.5 "Ubuntu";
     background-color: var(--base);
-}
-
-body {
-    height: 100%;
+    color: var(--text);
 }
 
 @media (min-width: 768px) {
     html {
         padding: 1.5em;
-        max-width: 46em;
+        max-width: 42em;
+        font-size: 125%;
     }
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
 }
 
 a {
@@ -59,20 +61,34 @@ a {
     color: var(--blue);
 }
 
-
 a:hover, a:active, a:focus {
     text-decoration: underline; 
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 2.5rem 0 1.5rem 0;
+
+}
+
 /* SECTION: LAYOUT */
-.l-float-right {
+.float-right {
     float: right;
+}
+
+.grid-stacked {
+    display: grid;
+    gap: 1em;
+}
+
+.clear {
+    clear: both;
 }
 
 /* SECTION: MODULE */
 .navbar {
     display: flex;
-    gap: 1em;
+    gap: 2em;
 }
 
 /* SECTION: STATE */
+

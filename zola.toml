@@ -14,7 +14,7 @@ theme = "catppuccin-mocha"
 
 [extra]
 loop_links = [
-  { url = "/section-1", name = "Section 1"},
-  { url = "/section-2", name = "Section 2"},
+  { url = "/test", name = "JustCash"},
+  { url = "/section-2", name = "contact us"},
 ]
   
